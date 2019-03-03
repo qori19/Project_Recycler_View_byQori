@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#008080">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/foto"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:src="@drawable/batman"
+        android:scaleType="centerCrop"
+
+        />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batman(10)"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/foto"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        />
+
+
+</RelativeLayout>
